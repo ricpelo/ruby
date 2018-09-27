@@ -1,2 +1,3 @@
-puts "Hola"
-
+print "Escribe tu nombre: "
+nombre = gets.chomp!
+puts "Hola, #{nombre}."
