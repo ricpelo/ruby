@@ -1,5 +1,6 @@
 print "Escribe tu nombre: "
 nombre = gets.chomp!
 puts "Hola, #{nombre}."
-1.upto(10) { |i| print "#{i} " }
-puts
+res = []
+1.upto(10) { |i| res << i }
+puts res.join("-")
